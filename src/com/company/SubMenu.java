@@ -33,19 +33,14 @@ public class SubMenu {
 
             Scanner input = new Scanner(System.in);
             String userInput = input.next();
-
-            if (!userInput.matches("[0-5]+")) {
-                System.out.println("Choice invalid!\n\nPlease enter a digit between 0-2. Proceed with <ENTER>");
-            }
+            System.out.println("Error: " + userInput);
+                if (!userInput.matches("[0-5]+")) {
+                    System.out.println("Choice invalid!\n\nPlease enter a digit between 0-2. Proceed with <ENTER>");
+                }
 
             switch (userInput) {
                 case "1":
                     System.out.println("STOCKHOLM - Capital of Sweden");
-                    String c1 = input.next();
-                    if (!userInput.matches("[0-3]+")) {
-                        System.out.println("Please enter a digit between 0-2. Proceed with <ENTER>");
-                    }
-                    //awaitDestinationChoice();
                     break;
 
                 case "2":
@@ -63,7 +58,7 @@ public class SubMenu {
                 case "5":
                     System.out.println("KIRUNA - Where the northern lights always shine");
                     break;
-                    
+
                 case "0":
                     System.out.println("\nReturning to main menu, please wait...");
                     subMenuRunning = false;

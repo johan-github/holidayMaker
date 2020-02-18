@@ -14,14 +14,7 @@ public class MainMenu {
             System.out.println("_____________ Holiday Maker _____________\n"
                     + "Please make a choice down below, select with <ENTER>:\n"
                     + "[1] Make a new reservation\n"
-                    // registrera in kunden.
-                    // söka efter lediga rum med specificerade sökkriterier-
-                    //    mellan specificerade datum och
-                    //    boka dem (OMVÄND ORDNING)
-
                     + "[2] Manipulate a current reservation\n"
-                    // avboka rum
-
                     + "[0] Shut down program");
 
             Scanner input = new Scanner(System.in);
@@ -41,7 +34,7 @@ public class MainMenu {
                 case "2":
                     System.out.println("*******************************\n" +
                             "Enter the booking ID of the reservation you wish to manipulate");
-                    String c2 = input.nextLine();
+                    // Use contain / toLowerCase in this case.
                     break;
 
 
