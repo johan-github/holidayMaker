@@ -14,31 +14,27 @@ public class MainMenu {
             System.out.println("_____________ Holiday Maker _____________\n"
                     + "Please make a choice down below, select with <ENTER>:\n"
                     + "[1] Make a new reservation\n"
+                    // registrera in kunden.
+                    // söka efter lediga rum med specificerade sökkriterier-
+                    //    mellan specificerade datum och
+                    //    boka dem (OMVÄND ORDNING)
+
                     + "[2] Manipulate a current reservation\n"
+                    // avboka rum
+
                     + "[0] Shut down program");
 
             Scanner input = new Scanner(System.in);
             String option = input.next();
 
             if (!option.matches("[0-3]+")) {
-                System.out.println("Please enter a digit between 0-2. Proceed with <ENTER>");
+                System.out.println("Choice invalid!\n\nPlease enter a digit between 0-2. Proceed with <ENTER>");
             }
 
             switch (option) {
 
-
                 case "1":
-                    System.out.println("\n*******************************\n" +
-                            "Please select a destination using [1]-[5] " +
-                            "(or go back with [0]), proceed with <ENTER>\n" +
-                            "[1] Stockholm\n" +
-                            "[2] Göteborg\n" +
-                            "[3] Malmö\n" +
-                            "[4] Åre\n" +
-                            "[5] Västerås\n" +
-                            "[0] Return");
-                    String c1 = input.next();
-                    //awaitDestinationChoice();
+                    nextMenu();
                     break;
 
 
@@ -55,5 +51,8 @@ public class MainMenu {
                 default:
             }
         }
+    }
+    public void nextMenu(){
+        new SubMenu();
     }
 }
