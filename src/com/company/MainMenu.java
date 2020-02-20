@@ -48,4 +48,5 @@ public class MainMenu {
     public void nextMenu(){
         new SubMenu();
     }
+
 }
