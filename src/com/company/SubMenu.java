@@ -1,13 +1,5 @@
 package com.company;
-import java.sql.Date;
 import java.util.Scanner;
-
-
-// söka efter lediga rum med specificerade sökkriterier-
-//    mellan specificerade datum och
-//    boka dem
-// registrera in kunden.
-
 
 public class SubMenu {
 
@@ -42,6 +34,8 @@ public class SubMenu {
             switch (userInput) {
                 case "1":
                     System.out.println("STOCKHOLM");
+                    String c1 = input.nextLine();
+                    MainMenu.dataBaseUtility.selectDestination(c1);
                     dates();
                     break;
 
@@ -114,5 +108,9 @@ public class SubMenu {
             decision();
         }
     }
-    
+
+
+
+        // XXXXXX
+
 }
