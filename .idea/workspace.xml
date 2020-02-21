@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d492d6a-d90d-44a9-8c60-f44f001f63e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/holidayMaker/com/company/DataBaseUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/holidayMaker/com/company/DataBaseUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/holidayMaker/com/company/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/holidayMaker/com/company/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/holidayMaker/com/company/SubMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/holidayMaker/com/company/SubMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataBaseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataBaseUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SubMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SubMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
